@@ -96,7 +96,7 @@ Thumbs.db
 !README.md
 !CHANGELOG.md
 !composer.json
-!credentials.md
+# credentials.md - commented out to keep it private
 !.ddev/
 
 # track favicon files, if they exist
@@ -143,3 +143,6 @@ dev-debug.log
 tasks.json
 tasks/
 agent.md
+
+# Database backups
+backups/
