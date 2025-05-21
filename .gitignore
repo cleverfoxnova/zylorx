@@ -116,6 +116,9 @@ Thumbs.db
 !wp-content/plugins/example-plugin/
 !wp-content/themes/example-theme/
 
+# Ignore uploads directory content
+public_html/wp-content/uploads/
+
 # Added by Claude Task Master
 # Logs
 logs
@@ -138,4 +141,5 @@ dev-debug.log
 .DS_Store
 # Task files
 tasks.json
-tasks/ 
+tasks/
+agent.md
