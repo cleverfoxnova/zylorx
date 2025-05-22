@@ -116,6 +116,9 @@ Thumbs.db
 !wp-content/plugins/example-plugin/
 !wp-content/themes/example-theme/
 
+# Ignore specific plugins
+public_html/wp-content/plugins/weight-based-shipping-for-woocommerce/
+
 # Ignore uploads directory content
 public_html/wp-content/uploads/
 
@@ -146,3 +149,4 @@ agent.md
 
 # Database backups
 backups/
+*.sql
